@@ -46,6 +46,16 @@ header {
 /* Main */
 
 /* Projects */
-.project-card {
+.projects__card {
+  background-color: white;
+}
+
+/* Announcements */
+.announcements__card {
+  background-color: white;
+}
+
+/* Trending */
+.trending__card {
   background-color: white;
 }
