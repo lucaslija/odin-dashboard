@@ -7,26 +7,28 @@
   <link rel="stylesheet" href="./styles.css" type="text/css">
 </head>
 <body>
-  <header>
-    <div id="top-row">
-      <div id="search-group">
-        <img src="images/magnify.svg" alt="" id="search-icon" class="icon-small">
-        <input type="text" name="search-bar" id="search-bar">
+  <div id="container">
+    <header>
+      <div id="top-row">
+        <div id="search-group">
+          <img src="images/magnify.svg" alt="" id="search-icon" class="icon-small">
+          <input type="text" name="search-bar" id="search-bar">
+        </div>
+        <div id="user-group">
+          <img src="images/bell-ring-outline.svg" alt="" id="bell-icon" class="icon-small">
+          <label for="user-settings">
+            <img src="images/account-circle-outline.svg" alt="" class="user-icon icon-small">
+            <button type="button" id="user-settings" name="user-settings">Morgan Oakley</button>
+          </label>
+        </div>
       </div>
-      <div id="user-group">
-        <img src="images/bell-ring-outline.svg" alt="" id="bell-icon" class="icon-small">
-        <label for="user-settings">
-          <img src="images/account-circle-outline.svg" alt="" class="user-icon icon-small">
-          <button type="button" id="user-settings" name="user-settings">Morgan Oakley</button>
-        </label>
-      </div>
-    </div>
-    <div id="bottom-row">
-      <div id="greeting">
-        <img src="images/account-circle-outline.svg" alt="" class="user-icon icon-large">
-        <div id="greeting__message">
-          <p>Hi there,</p>
-          <h3>Morgan Oakley (@morgan)</h3>
+      <div id="bottom-row">
+        <div id="greeting">
+          <img src="images/account-circle-outline.svg" alt="" class="user-icon icon-large">
+          <div id="greeting__message">
+            <p>Hi there,</p>
+            <h3>Morgan Oakley (@morgan)</h3>
+          </div>
         </div>
         <div id="user-actions">
           <button type="button" id="new-button" class="user-action-button">New</button>
@@ -34,150 +36,150 @@
           <button type="button" id="share-button" class="user-action-button">Share</button>
         </div>
       </div>
-    </div>
-  </header>
-  <div id="sidebar">
-    <div id="logo">
-      <img src="images/view-dashboard.svg" alt="" id="logo-icon" class="icon-large">
-      <h1 id="logo-text">Dashboard</h1>
-    </div>
-    <nav>
-      <ul>
-        <li class="nav-buttons" id="home"><img src="images/home.svg" alt="" class="icon-small">Home</li>
-        <li class="nav-buttons" id="profile"><img src="images/card-account-details-outline.svg" alt="" class="icon-small">Profile</li>
-        <li class="nav-buttons" id="messages"><img src="images/message.svg" alt="" class="icon-small">Messages</li>
-        <li class="nav-buttons" id="history"><img src="images/clock-time-three.svg" alt="" class="icon-small">History</li>
-        <li class="nav-buttons" id="tasks"><img src="images/file-multiple.svg" alt="" class="icon-small">Tasks</li>
-        <li class="nav-buttons" id="communities"><img src="images/account-group.svg" alt="" class="icon-small">Communities</li>
-      </ul>
-    </nav>
-    <div id="settings">
-      <ul>
-        <li class="nav-buttons" id="Settings"><img src="images/cog.svg" alt="" class="icon-small">Settings</li>
-        <li class="nav-buttons" id="Support"><img src="images/help-box.svg" alt="" class="icon-small">Support</li>
-        <li class="nav-buttons" id="Privacy"><img src="images/shield-check.svg" alt="" class="icon-small">Privacy</li>
-      </ul>
-    </div>
-  </div>
-  <main>
-    <div id="projects">
-      <h2>Your Projects</h2>
-      <div class="projects__card">
-        <div class="projects__text">
-          <h3>Super Cool Project</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad optio iste nesciunt minus enim nostrum commodi velit quidem doloribus suscipit iusto fuga, quisquam voluptas nulla nihil veritatis magni, tempore quam?</p>
-        </div>
-        <div class="projects__icons">
-          <img src="images/star-plus-outline.svg" class="icon-small" alt="">
-          <img src="images/eye-plus-outline.svg" class="icon-small" alt="">
-          <img src="images/source-fork.svg" class="icon-small" alt="">
-        </div>
+    </header>
+    <div id="sidebar">
+      <div id="logo">
+        <img src="images/view-dashboard.svg" alt="" id="logo-icon" class="icon-large">
+        <h1 id="logo-text">Dashboard</h1>
       </div>
-      <div class="projects__card">
-        <div class="projects__text">
-          <h3>Less Cool Project</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eum odit laudantium corrupti voluptatibus culpa obcaecati quaerat, minus vel quas, molestiae corporis quisquam tempore dolore saepe eius amet. Error, provident?</p>
-        </div>
-        <div class="projects__icons">
-          <img src="images/star-plus-outline.svg" class="icon-small" alt="">
-          <img src="images/eye-plus-outline.svg" class="icon-small" alt="">
-          <img src="images/source-fork.svg" class="icon-small" alt="">
-        </div>
-      </div>
-      <div class="projects__card">
-        <div class="projects__text">
-          <h3>Really Neat Stuff</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque incidunt numquam ipsa voluptatem, temporibus quam distinctio suscipit assumenda consequuntur minima harum pariatur rerum, cupiditate facere repudiandae nisi nostrum doloremque? Inventore.</p>
-        </div>
-        <div class="projects__icons">
-          <img src="images/star-plus-outline.svg" class="icon-small" alt="">
-          <img src="images/eye-plus-outline.svg" class="icon-small" alt="">
-          <img src="images/source-fork.svg" class="icon-small" alt="">
-        </div>
-      </div>
-      <div class="projects__card">
-        <div class="projects__text">
-          <h3>Honestly Not Worth Your Time</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi beatae adipisci, consequatur corrupti nihil earum eius architecto temporibus exercitationem, modi nesciunt debitis maiores illum et perspiciatis dolore impedit eveniet sequi.</p>
-        </div>
-        <div class="projects__icons">
-          <img src="images/star-plus-outline.svg" class="icon-small" alt="">
-          <img src="images/eye-plus-outline.svg" class="icon-small" alt="">
-          <img src="images/source-fork.svg" class="icon-small" alt="">
-        </div>
-      </div>
-      <div class="projects__card">
-        <div class="projects__text">
-          <h3>Why Are You Still Reading These</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ut impedit dolor corporis, qui consequuntur reiciendis iusto eaque magnam expedita ex dolores ab saepe repudiandae ipsam animi ratione? Voluptates, exercitationem!</p>
-        </div>
-        <div class="projects__icons">
-          <img src="images/star-plus-outline.svg" class="icon-small" alt="">
-          <img src="images/eye-plus-outline.svg" class="icon-small" alt="">
-          <img src="images/source-fork.svg" class="icon-small" alt="">
-        </div>
-      </div>
-      <div class="projects__card">
-        <div class="projects__text">
-          <h3>This Is The Last One</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, distinctio soluta libero aspernatur nisi porro, quos tempora debitis incidunt dolorem earum veniam eum quia? Consequatur suscipit ipsa blanditiis. Autem, deserunt.</p>
-        </div>
-        <div class="projects__icons">
-          <img src="images/star-plus-outline.svg" class="icon-small" alt="">
-          <img src="images/eye-plus-outline.svg" class="icon-small" alt="">
-          <img src="images/source-fork.svg" class="icon-small" alt="">
-        </div>
+      <nav>
+        <ul>
+          <li class="nav-buttons" id="home"><img src="images/home.svg" alt="" class="icon-small">Home</li>
+          <li class="nav-buttons" id="profile"><img src="images/card-account-details-outline.svg" alt="" class="icon-small">Profile</li>
+          <li class="nav-buttons" id="messages"><img src="images/message.svg" alt="" class="icon-small">Messages</li>
+          <li class="nav-buttons" id="history"><img src="images/clock-time-three.svg" alt="" class="icon-small">History</li>
+          <li class="nav-buttons" id="tasks"><img src="images/file-multiple.svg" alt="" class="icon-small">Tasks</li>
+          <li class="nav-buttons" id="communities"><img src="images/account-group.svg" alt="" class="icon-small">Communities</li>
+        </ul>
+      </nav>
+      <div id="settings">
+        <ul>
+          <li class="nav-buttons" id="Settings"><img src="images/cog.svg" alt="" class="icon-small">Settings</li>
+          <li class="nav-buttons" id="Support"><img src="images/help-box.svg" alt="" class="icon-small">Support</li>
+          <li class="nav-buttons" id="Privacy"><img src="images/shield-check.svg" alt="" class="icon-small">Privacy</li>
+        </ul>
       </div>
     </div>
-    <div id="announcements">
-      <h2>Announcements</h2>
-      <div class="announcements__card">
-        <h4>Site Maintenance</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit doloribus doloremque magnam fugiat? Commodi, at unde? Provident perspiciatis, modi officiis aperiam recusandae quia assumenda? Recusandae consequatur ratione cum vero quidem!</p>
-      </div>
-      <hr>
-      <div class="announcements__card">
-        <h4>Community Share Day</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ducimus nobis obcaecati numquam eligendi quibusdam quos hic temporibus reiciendis corporis quas ratione porro doloremque accusantium corrupti, eaque atque animi sequi!</p>
-      </div>
-      <hr>
-      <div class="announcements__card">
-        <h4>Updated Privacy Policy</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis doloremque, accusantium, laborum suscipit et eum praesentium quis dolorum, unde expedita velit? Minus, ipsa? Placeat sunt necessitatibus expedita quas fugit?</p>
-      </div>
-      <hr>
-    </div>
-    <div id="trending">
-      <h2>Trending</h2>
-      <div class="trending__card">
-        <img src="images/account-circle-outline.svg" alt="" class="user-icon icon-small">
-        <div class="project-info">
-          <h4 class="user-name">@tegan</h4>
-          <p class="app-title">World Peace Builder</p>
+    <main>
+      <div id="projects">
+        <h2>Your Projects</h2>
+        <div class="projects__card">
+          <div class="projects__text">
+            <h3>Super Cool Project</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad optio iste nesciunt minus enim nostrum commodi velit quidem doloribus suscipit iusto fuga, quisquam voluptas nulla nihil veritatis magni, tempore quam?</p>
+          </div>
+          <div class="projects__icons">
+            <img src="images/star-plus-outline.svg" class="icon-small" alt="">
+            <img src="images/eye-plus-outline.svg" class="icon-small" alt="">
+            <img src="images/source-fork.svg" class="icon-small" alt="">
+          </div>
+        </div>
+        <div class="projects__card">
+          <div class="projects__text">
+            <h3>Less Cool Project</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eum odit laudantium corrupti voluptatibus culpa obcaecati quaerat, minus vel quas, molestiae corporis quisquam tempore dolore saepe eius amet. Error, provident?</p>
+          </div>
+          <div class="projects__icons">
+            <img src="images/star-plus-outline.svg" class="icon-small" alt="">
+            <img src="images/eye-plus-outline.svg" class="icon-small" alt="">
+            <img src="images/source-fork.svg" class="icon-small" alt="">
+          </div>
+        </div>
+        <div class="projects__card">
+          <div class="projects__text">
+            <h3>Really Neat Stuff</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque incidunt numquam ipsa voluptatem, temporibus quam distinctio suscipit assumenda consequuntur minima harum pariatur rerum, cupiditate facere repudiandae nisi nostrum doloremque? Inventore.</p>
+          </div>
+          <div class="projects__icons">
+            <img src="images/star-plus-outline.svg" class="icon-small" alt="">
+            <img src="images/eye-plus-outline.svg" class="icon-small" alt="">
+            <img src="images/source-fork.svg" class="icon-small" alt="">
+          </div>
+        </div>
+        <div class="projects__card">
+          <div class="projects__text">
+            <h3>Honestly Not Worth Your Time</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi beatae adipisci, consequatur corrupti nihil earum eius architecto temporibus exercitationem, modi nesciunt debitis maiores illum et perspiciatis dolore impedit eveniet sequi.</p>
+          </div>
+          <div class="projects__icons">
+            <img src="images/star-plus-outline.svg" class="icon-small" alt="">
+            <img src="images/eye-plus-outline.svg" class="icon-small" alt="">
+            <img src="images/source-fork.svg" class="icon-small" alt="">
+          </div>
+        </div>
+        <div class="projects__card">
+          <div class="projects__text">
+            <h3>Why Are You Still Reading These</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ut impedit dolor corporis, qui consequuntur reiciendis iusto eaque magnam expedita ex dolores ab saepe repudiandae ipsam animi ratione? Voluptates, exercitationem!</p>
+          </div>
+          <div class="projects__icons">
+            <img src="images/star-plus-outline.svg" class="icon-small" alt="">
+            <img src="images/eye-plus-outline.svg" class="icon-small" alt="">
+            <img src="images/source-fork.svg" class="icon-small" alt="">
+          </div>
+        </div>
+        <div class="projects__card">
+          <div class="projects__text">
+            <h3>This Is The Last One</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, distinctio soluta libero aspernatur nisi porro, quos tempora debitis incidunt dolorem earum veniam eum quia? Consequatur suscipit ipsa blanditiis. Autem, deserunt.</p>
+          </div>
+          <div class="projects__icons">
+            <img src="images/star-plus-outline.svg" class="icon-small" alt="">
+            <img src="images/eye-plus-outline.svg" class="icon-small" alt="">
+            <img src="images/source-fork.svg" class="icon-small" alt="">
+          </div>
         </div>
       </div>
-      <div class="trending__card">
-        <img src="images/account-circle-outline.svg" alt="" class="user-icon icon-small">
-        <div class="project-info">
-          <h4 class="user-name">@morgan</h4>
-          <p class="app-title">Super Cool Project</p>
+      <div id="announcements">
+        <h2>Announcements</h2>
+        <div class="announcements__card">
+          <h4>Site Maintenance</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit doloribus doloremque magnam fugiat? Commodi, at unde? Provident perspiciatis, modi officiis aperiam recusandae quia assumenda? Recusandae consequatur ratione cum vero quidem!</p>
+        </div>
+        <hr>
+        <div class="announcements__card">
+          <h4>Community Share Day</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ducimus nobis obcaecati numquam eligendi quibusdam quos hic temporibus reiciendis corporis quas ratione porro doloremque accusantium corrupti, eaque atque animi sequi!</p>
+        </div>
+        <hr>
+        <div class="announcements__card">
+          <h4>Updated Privacy Policy</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nobis doloremque, accusantium, laborum suscipit et eum praesentium quis dolorum, unde expedita velit? Minus, ipsa? Placeat sunt necessitatibus expedita quas fugit?</p>
+        </div>
+        <hr>
+      </div>
+      <div id="trending">
+        <h2>Trending</h2>
+        <div class="trending__card">
+          <img src="images/account-circle-outline.svg" alt="" class="user-icon icon-small">
+          <div class="project-info">
+            <h4 class="user-name">@tegan</h4>
+            <p class="app-title">World Peace Builder</p>
+          </div>
+        </div>
+        <div class="trending__card">
+          <img src="images/account-circle-outline.svg" alt="" class="user-icon icon-small">
+          <div class="project-info">
+            <h4 class="user-name">@morgan</h4>
+            <p class="app-title">Super Cool Project</p>
+          </div>
+        </div>
+        <div class="trending__card">
+          <img src="images/account-circle-outline.svg" alt="" class="user-icon icon-small">
+          <div class="project-info">
+            <h4 class="user-name">@kendall</h4>
+            <p class="app-title">Life Changing App</p>
+          </div>
+        </div>
+        <div class="trending__card">
+          <img src="images/account-circle-outline.svg" alt="" class="user-icon icon-small">
+          <div class="project-info">
+            <h4 class="user-name">@alex</h4>
+            <p class="app-title">No Traffic Maker</p>
+          </div>
         </div>
       </div>
-      <div class="trending__card">
-        <img src="images/account-circle-outline.svg" alt="" class="user-icon icon-small">
-        <div class="project-info">
-          <h4 class="user-name">@kendall</h4>
-          <p class="app-title">Life Changing App</p>
-        </div>
-      </div>
-      <div class="trending__card">
-        <img src="images/account-circle-outline.svg" alt="" class="user-icon icon-small">
-        <div class="project-info">
-          <h4 class="user-name">@alex</h4>
-          <p class="app-title">No Traffic Maker</p>
-        </div>
-      </div>
-    </div>
-  </main>
+    </main>
+</div>
 </body>
 </html>
