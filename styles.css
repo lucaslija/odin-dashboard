@@ -24,6 +24,10 @@ button {
   height: 25px;
 }
 
+.icon-large {
+  height: 50px;
+}
+
 header {
   background-color: white;
 }
