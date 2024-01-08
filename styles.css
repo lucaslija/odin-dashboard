@@ -55,6 +55,8 @@ header {
 
   display: grid;
   grid-template-rows: 1fr, 1fr;
+
+  box-shadow: 5px 5px 5px rgb(199, 199, 199);
 }
   /* Top Row */
 #top-row {
