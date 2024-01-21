@@ -279,7 +279,7 @@ main h2 {
   border-left: 5px solid orange;
   box-shadow: rgb(199, 199, 199) 5px 5px 10px;
 
-  height: 20vh;
+  height: 22vh;
   padding: 25px;
 
   display: grid;
@@ -299,6 +299,9 @@ main h2 {
 .card__text p {
   color: rgb(117, 117, 117);
   font-size: .75rem;
+  
+  width: 20vw;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -316,6 +319,7 @@ main h2 {
   grid-row: 1 / 2;
 
   padding: 1rem;
+  padding-bottom: 0;
 }
 
 #announcements h2 {
@@ -331,6 +335,14 @@ main h2 {
   padding: 25px;
 
   display: grid;
+  gap: 1rem;
+}
+
+#announcements_cards hr {
+ border-color: rgb(199, 199, 199);
+ background-color: #000000;
+ color: rgb(199, 199, 199);
+ border: .25px solid rgb(199, 199, 199);
 }
 
 .announcements__card {
@@ -342,6 +354,7 @@ main h2 {
 .announcements__card h4 {
   font-size: .8rem;
   color: black;
+  padding-bottom: 5px;
 }
 
 /* Trending */
@@ -353,6 +366,38 @@ main h2 {
   padding: 1rem;
 }
 
+#trending h2 {
+  margin: 0 0 .5rem 1rem;
+}
+
+#trending__cards {
+
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgb(199, 199, 199) 5px 5px 10px;
+
+  margin: .25rem;
+  padding: 25px;
+
+  display: grid;
+  gap: 1rem;
+}
+
 .trending__card {
   background-color: white;
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "img info";
+  align-items: center;
+  justify-content: left;
+}
+
+.trending__card img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.project-info {
+  justify-content: left;
 }
